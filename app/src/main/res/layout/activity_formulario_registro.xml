@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondoregi"
+    tools:context=".FormularioRegistro">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="Registro"
+        android:gravity="center"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Ingrese su nombre"
+        android:imeOptions="actionNext"
+        android:imeActionLabel="sig."/>
+
+    <EditText
+        android:id="@+id/txtusuario"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Crear nombre de usuario"
+        android:imeOptions="actionNext"
+        android:imeActionLabel="sig."/>
+
+    <EditText
+        android:id="@+id/txtpassw"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Crear contraseña"
+        android:imeOptions="actionNext"
+        android:imeActionLabel="sig."/>
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Ingrese su correo electronico"
+        android:imeOptions="actionDone"
+        android:imeActionLabel="Listo"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="left"
+        android:text="Género"
+        android:textSize="20dp"
+        android:imeOptions="actionNext"
+        android:imeActionLabel="sig."/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masculino"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Femenino" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse" />
+
+</LinearLayout>

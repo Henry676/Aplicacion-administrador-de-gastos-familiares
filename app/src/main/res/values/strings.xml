@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Gastos</string>
+    <string name="user">Ingrese su nombre de usuario</string>
+    <string name="passwd">Ingrese su contraseña</string>
+    <string name="check">Recordar contraseña</string>
+    <string name="remind">¿Olvido su contraseña?</string>
+    <string name="create_account">¿No tiene cuenta? Cree una</string>
+
+    <string name="registrar">Registrar comidas</string>
+    <string name="comida">Ingrese que fué lo que consumió</string>
+    <string name="cantidad">Ingrese la cantidad</string>
+    <string name="fecha">Seleccione el dia que se pago</string>
+    <string name="totalComida">Ingrese el costo total</string>
+    <string name="botonAggComida">Agregar gasto</string>
+    <string name="btnmostrarGastos">Mostrar últimos gastos</string>
+
+    <string name="registrarTransp">Registrar transportes</string>
+    <string name="transporte">Nombre del gasto</string>
+    <string name="cantidadTransp">Ingrese la cantidad</string>
+    <string name="fechaTransp">Seleccione el dia que se pago</string>
+    <string name="totalTransp">Ingrese el costo total</string>
+    <string name="botonAggTransp">Agregar gasto</string>
+    <string name="btnmostrarGastosTransp">Mostrar últimos gastos</string>
+
+    <string name="registrarServicios">Registrar servicios</string>
+    <string name="servicio">Nombre del servicio</string>
+    <string name="fechaServicio">Seleccione el dia que se pago</string>
+    <string name="totalServicio">Ingrese el costo total</string>
+    <string name="botonAggServ">Agregar gasto</string>
+    <string name="btnmostrarGastosServ">Mostrar últimos gastos</string>
+
+    <string name="registrarExtra">Registrar pagos extras</string>
+    <string name="extra">Nombre del gasto</string>
+    <string name="cantidadExtra">Ingrese la cantidad</string>
+    <string name="fechaExtra">Seleccione el dia que se pago</string>
+    <string name="totalExtras">Ingrese el costo total</string>
+    <string name="botonAggExtr">Agregar gasto</string>
+    <string name="btnmostrarGastosExtra">Mostrar últimos gastos</string>
+
+
+    <string-array name="historial">
+        <item>Luz</item>
+        <item>Agua</item>
+        <item>Internet</item>
+        <item>Gas</item>
+    </string-array>
+    <string-array name="registro">
+        <item>Luz</item>
+        <item>Agua</item>
+        <item>Internet</item>
+        <item>Gas</item>
+        <item>Comida</item>
+        <item>Transporte</item>
+        <item>Cine</item>
+        <item>Estacionamientos</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
